@@ -6,7 +6,7 @@
  *  all other methods, or -1 on failure
  */
 int
-httpc_open(char *url);
+httpc_open(const char *url);
 
 /**
  * Read at most count bytes into the given char buffer
